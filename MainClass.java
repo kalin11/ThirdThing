@@ -42,6 +42,9 @@ public class MainClass {
         System.out.println(listOfPeople.znaika.name + listOfPeople.znaika.didntForgetAnything());
         TheFlightDay.Appointment();
         listOfPeople.znaika.toMakeUpList(listOfPeople.znaika);
+        System.out.println();
+
+        listOfPeople.shorty1.FlyToTheMoon();
 
 
 
