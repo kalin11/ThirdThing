@@ -1,7 +1,7 @@
-import Human.Human;
+package TheFlightDay;
 
 public class TheFlightDay {
-    public static String Appointment(Human h){
-        return h.name + " назначил день отлёта";
+    public static void Appointment(){
+        System.out.println("Назначен день отлёта.");
     }
 }

@@ -11,13 +11,14 @@ public class Shorty extends Human implements ShortiesPossibilities{
     }
 
 
-    public void FlyToTheMoon(Shorty shorty) {
-        if (NeznaikasList.checkList.contains(shorty)) {
-            System.out.println(shorty.name + " летит на луну");
-        } else {
-            System.out.println(shorty.name + " не летит на луну");
-        }
-
+    public void FlyToTheMoon() {
+        for (Human human : NeznaikasList.checkList){
+            if (NeznaikasList.checkList.contains(human)) {
+                System.out.println(human.name + " летит на луну");
+            } else {
+                System.out.println(human.name + " не летит на луну");
+            }
 
         }
     }
+}

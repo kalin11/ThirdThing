@@ -1,7 +1,7 @@
 package Neznaika;
 
 import Enums.DegreeOfSomething;
-import Enums.TypesOfPeople;
+import Enums.*;
 import Human.Human;
 
 public class Neznaika extends Human implements NeznaikaPossibilities {
@@ -17,8 +17,8 @@ public class Neznaika extends Human implements NeznaikaPossibilities {
         return "его не оставляла надежда";
     }
 
-    public void expect(){
-        System.out.println("надеялся");
+    public String expect(){
+        return " напрасно надеялся";
     }
 
 }

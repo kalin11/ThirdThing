@@ -9,4 +9,5 @@ public interface ZnaikasPossibilities {
     public String toForget(); // забыл или нет
     public String toExecute(); //не станет приводить в исполнение свою угрозу
     public void toMakeUpList(Human h); //составить
+    public String didntForgetAnything();
 }

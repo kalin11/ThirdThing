@@ -15,4 +15,10 @@ public abstract class Human {
     public String toString(){
         return "[" + name + "]";
     }
+
+    public static class Eyes {
+        public String flashed(){
+            return "сверкнул";
+        }
+    }
 }

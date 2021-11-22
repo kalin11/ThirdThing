@@ -62,8 +62,13 @@ public class Znaika extends Human implements ZnaikasPossibilities {
             }
             else {
                 human.weightlessness = false;
-                System.out.print(human.name + " не в списке");
-                System.out.print(", ");
+                if (human.name == "Незнайка"){
+                    System.out.print(human.name + " не в списке, потому что додик, ");
+                }
+                else {
+                    System.out.print(human.name + " не в списке, потому что" + Nevesomost.Perenosimost(human));
+                    System.out.print(", ");
+                }
             }
         }
 
@@ -90,6 +95,9 @@ public class Znaika extends Human implements ZnaikasPossibilities {
         return " не станет приводить в исполнение свою угрозу ";
 //        если позабудет, то и угрозу воплощать в жизнь не будет
 //        иначе - будет
+    }
+    public String didntForgetAnything(){
+        return " ничего не забыл";
     }
 
 }
