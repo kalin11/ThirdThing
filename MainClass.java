@@ -5,6 +5,7 @@ import Shorty.*;
 import Znaika.*;
 import Enums.*;
 import java.util.ArrayList;
+import TheFlightDay.*;
 
 import Znaika.listOfPeople.*;
 
@@ -36,7 +37,11 @@ public class MainClass {
         listOfPeople.znaika.toFlash(listOfPeople.neznaika);
         listOfPeople.znaika.toSay();
         System.out.println("на самом деле " + listOfPeople.neznaika.wantTo() + CelestialBodies.MOON);
-        System.out.print(listOfPeople.neznaika.haveHope() + ", что " + listOfPeople.znaika.name + listOfPeople.znaika.toForget() + " и" + listOfPeople.znaika.toExecute());
+        System.out.println(listOfPeople.neznaika.haveHope() + ", что " + listOfPeople.znaika.name + listOfPeople.znaika.toForget() + " и" + listOfPeople.znaika.toExecute());
+        System.out.println("Однако " + listOfPeople.neznaika.name + listOfPeople.neznaika.expect());
+        System.out.println(listOfPeople.znaika.name + listOfPeople.znaika.didntForgetAnything());
+        TheFlightDay.Appointment();
+        listOfPeople.znaika.toMakeUpList(listOfPeople.znaika);
 
 
 
